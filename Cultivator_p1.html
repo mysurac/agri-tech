@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTP</title>
+    <link rel="stylesheet" href="sample.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+ 
+        .image {
+            flex: 1;
+            margin-right: 20px;
+        }
+ 
+        .image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+ 
+        .paragraph {
+            flex: 1;
+        }
+    </style>
+     <style>
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+            padding-bottom: 20px;
+        }
+ 
+        .gallery img {
+            width: 100px;
+            height: auto;
+            scroll-snap-align: start;
+            cursor: pointer;
+        }
+ 
+        .main-image {
+            width: 700px;
+            height: 500px;
+            margin-top: 20px;
+        }
+        .para{
+            width: 300px;
+        }
+        .image{
+            width: 700px;
+        }
+         @media screen and (max-width:999px)
+         {
+            .container
+        {
+            width:100%;
+            height:auto;
+            margin:auto;
+         }
+         .main-image {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .para{
+            width: 100%;
+            height: auto;
+        }
+
+         }
+
+    </style>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg" style="background-color: navajowhite">
+   
+        <div class="container">
+        <a class="navbar-brand" href="#" id="logo"><img src="MTP_AGRI1-removebg-preview.png" alt="" width="200px"> </span></a>
+     
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+     
+        </button>
+     
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="p_main.html">Home</a>
+            </li>
+            
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">ABOUT</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="vision&mision_p.html">Vision & mision</a></li>
+              <li><a class="dropdown-item" href="why_us_p.html">Why Us</a></li>
+              
+            </ul>
+          </li>
+           
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PRODUCT</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Rotary_p1.html">Rotavator</a></li>
+                  <li><a class="dropdown-item" href="Harvester_p1.html">Combine Harvester</a></li>
+                  <li><a class="dropdown-item" href="Ploughs-P1.html">Ploughs</a></li>
+                 
+                  <li><a class="dropdown-item" href="till_p.html">Zero Till</a></li>
+                  <li><a class="dropdown-item" href="Sprayer-P1.html">Boom Sprayer
+                  </a></li>
+                 
+                  <li><a class="dropdown-item" href="Trailer-P1.html">Tipping Trailer</a></li>
+                </ul>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="become.html">BOCOME A DEALER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true"></a>
+            </li>
+          </ul>
+       
+    
+        </div>
+    
+    </div>
+      </nav>
+
+      <div class="container">
+        <div class="image">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 30px;">
+            <img class="main-image" id="mainImage" src="heavy-duty-type-cultivator.png" alt="Main Image">
+            <div class="gallery">
+                    <img src="heavy-duty-type-cultivator.png" alt="Small Image 1">
+                    <img src="1 (7).jpg" alt="Small Image 2">
+                    <img src="2 (7).jpg" alt="Small Image 1">
+                    <img src="3 (7).jpg" alt="Small Image 2">
+                    <img src="4 (7).jpg" alt="Small Image 2">
+                    <!-- Add more small images as needed -->
+                </div>
+               
+             
+                <script>
+                    // JavaScript to handle image switching
+                    const gallery = document.querySelector('.gallery');
+                    const mainImage = document.getElementById('mainImage');
+             
+                    gallery.addEventListener('click', (event) => {
+                        if (event.target.tagName === 'IMG') {
+                            mainImage.src = event.target.src;
+                        }
+                    });
+                </script>
+            </div>
+            </div>
+        
+        <div class="paragraph">
+            <h1 class="product-name">Heavy Duty Cultivator
+            </h1>
+             
+ 
+            <ul class="list1">
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp; Suitable for use in stone and root obstructed soil.
+                        </li>
+                   
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp; It is designed for toughest operations.
+                        </li>
+                   
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;  Used for loosening and aerating soil to a depth of nine inches.
+                        </li>
+                   
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp; Prepares seed beds quickly and economically.
+                        </li>
+                   
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp; When one tyne strikes a hidden object, the others continue to work at the correct depth.
+
+                        </li>
+                   
+                                        <span class="hide" id="jd_1"></span><a href="javascript:void(0);" onclick="showDetails('jd_1',this)" style="font-size: 20px;"><i class="fa fa-chevron-circle-down"></i></a>                    </ul>
+            <br>
+            
+               <div style="margin: 7px;">
+            <a href="become.html" onclick="sendPopContactBtn()" style="padding: 4px;background: #23882b;" id="myBtn" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Become A Dealer</a>
+            <a href="contactus.html" onclick="showPopContactBtn()" style="padding: 4px;background:#e67816;" id="" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Send Enquiry</a>
+ 
+                       </div>            
+           
+        </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div class="container-fluid bg-black">
+        <div class="row">
+            <div class="col-5">
+                <div class="footer1" style="margin-top: 50px;">
+                   
+            <div class="container" style="color:#f1ecec;">
+               
+               
+ 
+               
+ 
+                <div class="clearfix divider_dashed1"></div>
+ 
+                <div class="one_third animate fadeInUp" data-anim-type="fadeInUp">
+                    <div class="faddress">
+                        <img style="width: auto;" src="agri1.png" alt="MTP">
+                   
+                       
+                       
+                            <p>MTP, a Pioneer in the agricultural machinery manufacturing industry, was formed in 1978, with a mission to be a front runner in offering the innovative, user-friendly &amp; environmentally sustainable farming solutions to farmers around the globe. As a market leader, we export innovative implements of International standards to 102 Countries.</p>
+                   
+                            <i class="fa fa-map-marker fa-lg"></i>&nbsp; Plot No.235,
+                            <br>
+                            Sec-3, HSIIDC, kadapa -516390
+                            <br>
+                            (ap), India
+                       
+        </div>
+                </div><!-- end address -->
+               </div>
+            </div></div>
+            <div class="col-2">
+                <h4 style="margin: 6px;color: white;">Products</h4>
+                <div class="one_fifth animate mob100 fadeInUp" data-anim-type="fadeInUp">
+                    <div class="qlinks" style="color:white">
+ 
+                        <style>
+ 
+                            a {
+                                text-decoration: none; 
+                                color: white;  
+                            }
+                            </style>
+                        <div class="row" style="text-decoration: none;">
+                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+                                 <div class="moblist"style="text-decoration: none;">
+                    
+                                    <li>
+                                        <a href="Rotary_p1.html"><i class="fa fa-angle-right"></i> Rotavator</a>
+                                    </li>
+                                    <li>
+                                        <a href="Harvester_p1.html"><i class="fa fa-angle-right"></i> Combine Harvester</a>
+                                    </li>
+                                    <li>
+                                        <a href="Ploughs-P1.html"><i class="fa fa-angle-right"></i> Ploughs</a>
+                                    </li>
+                                   </div>
+                            </div>
+                       
+                            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+                                <class="moblist" style="color:white">
+                                    <li>
+                                        <a href="till_p.html"></zero_till_p><i class="fa fa-angle-right"></i> Zero Till</a>
+                                    </li>
+                                    <li>
+                                      <a href="Sprayer-P1.html"><i class="fa fa-angle-right"></i> Sprayer</a>
+                                  </li>
+                              
+                                    <li>
+                                        <a href="Trailer-P1.html"><i class="fa fa-angle-right"></i> Trailers</a>
+                                    </li>
+                                   
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+        </div>
+              <div class="col-3">
+                <div class="one_fifth animate mob100 fadeInUp" data-anim-type="fadeInUp">
+                    <div class="siteinfo"style=" margin: 6px;color:white">
+ 
+                        <h4 class="lmb" >Stay Connected</h4>
+ 
+                        <p>
+                            To know about the latest farm machinery updates, videos, exhibitions and news, please follow us on
+                        </p>
+                        
+                        <ul class="footer_social media" style="color:white" >
+                            <a href="#" class=""> <img src="fb.png" alt=""></a>
+                            <a href="#" class="" style="color: white;"><img src="x2.png" alt=""></a>
+                            <a href="#" class=""><img src="google.png" alt=""></a>
+                            <br>
+                             <a href="#" class=""><img src="link.png" alt=""></a>
+                               <a href="#" class=""> <img src="youtube.png" alt=""></a>
+                                <a href="#" class=""><img src="instagram.png" alt=""></a>
+                           
+                        </ul>
+ 
+                    </div>
+                </div><!-- end site info -->
+               </div>
+               <div class="col-2">
+                <div class="one_fourth last animate fadeInUp" style="margin: 6px;color:#fff"  ; data-anim-type="fadeInUp">
+ 
+                    <h4>New Farm implements</h4>
+ 
+                    <div id="flickr_badge_wrapper" style="padding: 4px;">
+                        <a href="Rotary_p1.html"><img src="footer-Regular Single Speed-1.jpg" alt="Rotavator"></a>
+                        <a href="Harvester_p1.html" ><img src="footer-Combine Harvester-1.jpg" alt="Harvester"></a>
+                        <a href="Ploughs-P1.html"><img src="footer1111.png" alt="Post Hole Digger"></a>
+                        <a href="till_p.html"><img src="till222222.png" alt="Regular Single Speed"></a>
+                        <a href="Sprayer-P1.html"><img src="boom-sprayer1111222233.png" alt="Rigid Cultivator"></a>
+                        <a href="Trailer-P1.html"><img src="tipping-trailer (1) 12345671.png" alt="Tipping Trailer"></a>
+                    </div>
+ 
+                </div>
+ 
+            </div>
+       
+        <div class="clearfix"></div>
+ 
+        <hr style="1px solid red"></hr>
+ 
+        <div class="copyright_info">
+            <div class="container" align="center">
+ 
+ 
+                <div class="clearfix divider_dashed10"></div>
+ 
+                <div class="one_half animate fadeInRight" data-anim-type="fadeInRight" style="font-size:14px;color:#fff; margin:  3px;">
+ 
+                    Copyright © 2024 MTP Pvt Ltd. All rights reserved.
+ 
+                </div>
+ 
+ 
+            </div>
+</div>
+</div>
+</div>
+
+ 
+    </body>
+    </html>
