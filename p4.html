@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      .carousel-control-prev
+      {
+          margin-top:200px;
+      }
+
+    .carousel-control-next
+      {
+          margin-top:200px;
+      }
+  </style>
+</head>
+<body >
+    
+    <div class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" > <img src="t1.jpg" alt="">
+          </a>
+          <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0  mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-center" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu text-center">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+           // <a href="https://www.linkedin.com/company/mouritech/?viewAsMember=true" target="_blank"><span class="fab fa-linkedin-in"></span>  &nbsp; </a>
+
+            <button type="button" class="btn btn-danger">Contact</button>
+          </div>
+        </div>
+        
+
+    </div>
+        
+
+<div class="container-fluid">
+<div class="row">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+                <img src="Fieldking.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="caltivater2.jpg" class="d-block w-100" alt="...">
+          </div>
+         
+         
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      <!-- Bootstrap JS and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+      <!-- Custom JavaScript for auto-sliding -->
+      <script>
+        $('.carousel').carousel({
+          interval: 2000 // Change slide every 2 seconds (2000 milliseconds)
+        });
+      </script>
+</div>
+
+    
+
+    </div>
+    <div class="container-fluid bg-primary">
+    <div class="row">
+        <h1>Client Success Stories</h1>
+        <div class="col-md-3"><div class="card" >
+            <img src="card1.png" class="card-img-top p-3" alt="...">
+            <hr>
+            <div class="card-body data-bg-color:red">
+               
+              <h5 class="card-title text-danger">power-harrow</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card2.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Ripper</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card3.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Harrows</h5>
+               </div>
+          </div></div>
+       
+
+    <div class="col-md-3"><div class="card" >
+        <img src="card3.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+            <hr> 
+          <h5 class="card-title text-danger">Harrows</h5>
+           </div>
+      </div></div>
+    </div> 
+        
+    <div class="row">
+        <h1>Client Success Stories</h1>
+        <div class="col-md-3"><div class="card" >
+            <img src="card1.png" class="card-img-top p-3" alt="...">
+            <hr>
+            <div class="card-body data-bg-color:red">
+               
+              <h5 class="card-title text-danger">power-harrow</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card2.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Ripper</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card3.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Harrows</h5>
+               </div>
+          </div></div>
+       
+
+    <div class="col-md-3"><div class="card" >
+        <img src="card3.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+            <hr> 
+          <h5 class="card-title text-danger">Harrows</h5>
+           </div>
+      </div></div>
+    </div>
+    <div class="row">
+        <h1>Client Success Stories</h1>
+        <div class="col-md-3"><div class="card" >
+            <img src="card1.png" class="card-img-top p-3" alt="...">
+            <hr>
+            <div class="card-body data-bg-color:red">
+               
+              <h5 class="card-title text-danger">power-harrow</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card2.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Ripper</h5>
+             
+            </div>
+          </div></div>
+        <div class="col-md-3"><div class="card" >
+            <img src="card3.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+                <hr> 
+              <h5 class="card-title text-danger">Harrows</h5>
+               </div>
+          </div></div>
+       
+
+    <div class="col-md-3"><div class="card" >
+        <img src="card3.png" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+            <hr> 
+          <h5 class="card-title text-danger">Harrows</h5>
+           </div>
+      </div></div>
+    </div>  
+</div> 
+    
+    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+            <div class="bg-primary  p-2 text-center"> @copyrights 2024 CMR </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="site_wrapper">
+
+        <div class="clearfix"></div>
+
+        
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-BSFCWCRDP9"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+	gtag('config', 'G-BSFCWCRDP9');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N66K7NP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<meta name="google-translate-customization" content="25b0f5498fba4c21-a712ebe308be1996-g8adabf8098c0ed89-12">
+<script async="" src="https://cse.google.com/cse.js?cx=004532677006893423312:kc6jvv6skwa"></script>
+<header id="header">
+
+	<div id="trueHeader">
+
+		<div class="wrapper">
+
+			<div class="container">
+
+				<!-- Logo -->
+				<div class="logo">
+					<a alt="Fieldking Logo" style="z-index: 99999;margin-top: 20px;" href="https://www.fieldking.com/" id="logo"><img src="https://www.fieldking.com/images/logo.png" alt="Fieldking Logo"></a>
+					<!-- <a alt="Fieldking Logo" style="z-index: 99999;margin-top: 20px;" href="https://www.fieldking.com/" id="logo"><img src="https://www.fieldking.com/images/FK-logo-with-cap.png" alt="Fieldking Logo" /></a> -->
+				</div>
+
+				<!-- Menu -->
+				<div class="menu_main">
+
+					<div class="navbar yamm navbar-default">
+
+						<div class="container">
+							<div class="navbar-header">
+								<div class="navbar-toggle .navbar-collapse .pull-right " style="padding: 7px 8px;border-radius: 5px;margin-top: 10px;">
+
+									<button class="menu-btn" type="button" style="width: 30px;height: 30px;padding: 5px;">
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+							</div>
+							<div class="submenu">
+								<a target="_blank" href="https://web.whatsapp.com/send?phone=+919254016570"><span class="call_header"><i class="fa fa-whatsapp"></i><b> +91-9254016570</b></span></a>
+							</div>
+							<div class="new_search1">
+
+							</div>
+							<div class="new_search_inner1">
+								<div id="google_translate_element"></div>
+							</div>
+							<div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
+
+								<ul class="nav navbar-nav">
+
+									<li class="dropdown">
+										<a href="#" data-toggle="dropdown" class="dropdown-toggle "><i class="fa fa-leaf"></i> About</a>
+										<ul class="dropdown-menu" role="menu">
+											<li>
+												<a href="https://www.fieldking.com/about-us/profile/">History</a>
+											</li>
+											<li class="dropdown">
+												<a href="#" data-toggle="dropdown" class="dropdown-toggle">Presence</a>
+												<ul class="dropdown-menu n1" role="menu">
+													<li>
+														<a href="https://www.fieldking.com/our-presence/domestic/">Domestic</a>
+													</li>
+													<li>
+														<a href="https://www.fieldking.com/our-presence/overseas/">Overseas</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/about-us/infrastructure/">Infrastructure</a>
+											</li>
+											<li class="dropdown">
+												<a href="#" data-toggle="dropdown" class="dropdown-toggle">Media Room</a>
+												<ul class="dropdown-menu n1" role="menu" style="top: 113px;">
+													<li>
+														<a href="https://www.fieldking.com/media-room/media-and-news/">Media &amp; News</a>
+													</li>
+													<li>
+														<a href="https://www.fieldking.com/media-room/awards-credentials/">Awards &amp; Credentials</a>
+													</li>
+													<li>
+														<a href="https://www.fieldking.com/media-room/trade-shows/">Trade Shows &amp; Activities</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/about-us/vision-and-mission/">Vision &amp; Mission</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/about-us/management-team/">Management Team</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/about-us/why-us/">Why Us</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/about-us/csr-policy/">CSR Policy</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="dropdown yamm-fw">
+										<a href="https://www.fieldking.com/product-portfolio/" onclick="gotop('https://www.fieldking.com/product-portfolio/');" data-toggle="dropdown" class="dropdown-toggle active" style="margin-top: -1px;">
+											<div class="icon_pro"><img src="https://www.fieldking.com/icons/product_icon.png"></div> Products
+										</a>
+										<ul class="dropdown-menu" style="width: 550px;background: #fff;">
+											<li>
+												<div class="yamm-content hbg">
+													<div class="row" style="margin: 0;">
+
+														<div class="col-lg-6 col-sm-6 col-md-6">
+															<p class="head_p tillage_a">
+																<a href="https://www.fieldking.com/product/tillage/">Tillage<i class="fa fa-angle-right mi"></i></a>
+															</p>
+															<p class="head_p seeding_a">
+																<a href="https://www.fieldking.com/product/seeding-and-plantation/">Seeding<i class="fa fa-angle-right mi"></i></a>
+															</p>
+															<p class="head_p harvest_a">
+																<a href="https://www.fieldking.com/product/harvest/">Harvest &amp; Straw Management<i class="fa fa-angle-right mi"></i></a>
+															</p>
+															<p class="head_p landsc_a">
+																<a href="https://www.fieldking.com/product/landscaping/">Landscaping<i class="fa fa-angle-right mi"></i></a>
+															</p>
+															<p class="head_p haulage_a">
+																<a href="https://www.fieldking.com/product/haulage/">Haulage<i class="fa fa-angle-right mi"></i></a>
+															</p>
+															<p class="head_p protection_a">
+																<a href="https://www.fieldking.com/product/crop-protection/">Crop Protection<i class="fa fa-angle-right mi"></i></a>
+															</p>
+
+															<!--<p class="head_p post_harvest_a">
+																<a href="https://www.fieldking.com/product/post-harvest/">Post Harvest<i class="fa fa-angle-right mi"></i></a>
+															</p>-->
+
+															<p class="head_p disc-and-blades_a">
+																<a href="https://www.fieldking.com/product/disc-and-blades/">Harrow Discs &amp; Rotavator Blades<i class="fa fa-angle-right mi"></i></a>
+															</p>
+														</div>
+														<div class="col-lg-6 col-sm-6 col-md-6">
+															<ul class="tillage_item ist-unstyled">
+																<p class="item_head">Tillage</p>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/rotary-tiller/"><i class="fa fa-angle-right"></i> Rotary Tillers<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/harrow/"><i class="fa fa-angle-right"></i> Harrows<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/plough/"><i class="fa fa-angle-right"></i> Ploughs</a>
+																</li>
+
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/sub-soiler/"><i class="fa fa-angle-right"></i> Sub Soilers</a>
+																</li>
+
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/"><i class="fa fa-angle-right"></i> Cultivator / Tillers</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/disc-ridger/"><i class="fa fa-angle-right"></i> Ridgers</a>
+																</li>
+
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/power-harrow/"><i class="fa fa-angle-right"></i> Power Harrow</a>
+																</li>
+
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/ripper/"><i class="fa fa-angle-right"></i> Ripper</a>
+																</li>
+															</ul>
+															<ul class="landsc_item ist-unstyled ">
+																<p class="item_head">Landscaping</p>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/leveler/"><i class="fa fa-angle-right"></i> Levelers</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/rotary-cutters/"><i class="fa fa-angle-right"></i> Rotary Cutters</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/terracer-blade/"><i class="fa fa-angle-right"></i> Terracer Blade</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/box-blade/"><i class="fa fa-angle-right"></i> Box Blade</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/grader-blade/"><i class="fa fa-angle-right"></i> Grader Blade</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/landscape-rake/"><i class="fa fa-angle-right"></i> Landscape Rake</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/heavy-duty-flail-mower/"><i class="fa fa-angle-right"></i> Heavy Duty Flail Mower</a>
+																</li>
+															</ul>
+															<ul class="seeding_item ist-unstyled">
+																<p class="item_head">Seeding</p>
+
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/super-seeder/"><i class="fa fa-angle-right"></i> Super Seeder<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/happy-seeder/"><i class="fa fa-angle-right"></i> Happy Seeder<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/pneumatic-planter/"><i class="fa fa-angle-right"></i> Pneumatic Planter</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/multi-crop-row-planter/"><i class="fa fa-angle-right"></i> Multi Crop Row Planter</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/zero-till/"><i class="fa fa-angle-right"></i> Zero Till</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/post-hole-digger/"><i class="fa fa-angle-right"></i> Post Hole Digger</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/roto-seed-drill/"><i class="fa fa-angle-right"></i> Roto Seed Drill</a>
+																</li>
+
+															</ul>
+															<ul class="protection_item ist-unstyled">
+																<p class="item_head">Crop Protection</p>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/boom-sprayer/"><i class="fa fa-angle-right"></i> Boom Sprayer</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/fertilizer-spreader/"><i class="fa fa-angle-right"></i> Fertilizer Spreader</a>
+																</li>
+															</ul>
+															<ul class="harvest_item ist-unstyled">
+																<p class="item_head">Harvest &amp; Straw</p>
+																<!--<li>
+																<a href="https://www.fieldking.com/product-portfolio/combine-harvester/multi-crop-harvester-with-ac-cabin/"><i class="fa fa-angle-right"></i> Multi Crop Harvester (With AC Cabin)<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/combine-harvester/multi-crop-harvester-with-sacker/"><i class="fa fa-angle-right"></i> Multi Crop Harvester (With Sacker)<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+															</li>	-->
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/harvesters/"><i class="fa fa-angle-right"></i> Multi Crop Harvester</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/round-baler/"><i class="fa fa-angle-right"></i> Round Baler</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/mini-round-baler/"><i class="fa fa-angle-right"></i> Mini Round Baler<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/square-baler/"><i class="fa fa-angle-right"></i> Square Baler<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/rotary-mulcher/"><i class="fa fa-angle-right"></i> Rotary Mulcher<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/flail-mower/"><i class="fa fa-angle-right"></i> Flail Mower<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/hay-rake/"><i class="fa fa-angle-right"></i> Hay Rake</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/sugar-cane-loader/"><i class="fa fa-angle-right"></i> Sugar Cane Loader</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/forage-mower/"><i class="fa fa-angle-right"></i> Forage Mower</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/bale-spear/"><i class="fa fa-angle-right"></i> Bale Spear</a>
+																</li>
+
+															</ul>
+															<!--<ul class="post_harvest_item ist-unstyled">
+																<p class="item_head">Post Harvest</p>
+																<li>
+																<a href="https://www.fieldking.com/product-portfolio/round-baler/"><i class="fa fa-angle-right"></i> Round Baler<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/square-baler/"><i class="fa fa-angle-right"></i> Square Baler<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/rotary-mulcher/"><i class="fa fa-angle-right"></i> Rotary Mulcher<span class="new" style="background:  red;padding: 0px 10px;color: #fff;margin-left: 5px;">New</span></a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/hay-rake/"><i class="fa fa-angle-right"></i> Hay Rake</a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/sugar-cane-loader/"><i class="fa fa-angle-right"></i> Sugar Cane Loader</a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/forage-mower/"><i class="fa fa-angle-right"></i> Forage Mower</a>
+															</li>
+															<li>
+																<a href="https://www.fieldking.com/product-portfolio/bale-spear/"><i class="fa fa-angle-right"></i> Bale Spear</a>
+															</li>
+															</ul>-->
+															<ul class="haulage_item ist-unstyled">
+																<p class="item_head">Haulage</p>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/trailer/"><i class="fa fa-angle-right"></i> Trailers</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/water-bowser-and-tanker/"><i class="fa fa-angle-right"></i> Water Bowser / Tanker</a>
+																</li>
+
+															</ul>
+															<ul class="disc-and-blades_item ist-unstyled">
+																<p class="item_head">Harrow Discs &amp; Rotavator Blades</p>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/disc-blades/"><i class="fa fa-angle-right"></i> Disc Blades</a>
+																</li>
+																<li>
+																	<a href="https://www.fieldking.com/product-portfolio/rt-blades/"><i class="fa fa-angle-right"></i> RT Blades</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a style="color: #e86c3c;font-weight: bold;" href="https://www.fieldking.com/become-a-dealer/" class=""><i class="fa fa-handshake-o" style="transform: rotate(30deg);"></i>Become a Dealer</a>
+									</li>
+									<li class="dropdown">
+										<a href="https://www.fieldking.com/contact-us/" data-toggle="dropdown" class="dropdown-toggle "><i class="fa fa-phone"></i> Contact Us</a>
+
+										<ul class="dropdown-menu" role="menu">
+											<li>
+												<a href="https://www.fieldking.com/contact-us/">Sales</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/contact-us/join-our-team/">Careers</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/contact-us/supply-to-us/">Supply To Us</a>
+											</li>
+											<li>
+												<a href="https://www.fieldking.com/contact-us/service-and-spares-request/">Service &amp; Spares Request</a>
+											</li>
+										</ul>
+									</li>
+
+								</ul>
+
+
+								<div class="new_search">
+
+								</div>
+								<div class="new_search_inner">
+									<div id="___gcse_0"><div class="gsc-control-searchbox-only gsc-control-searchbox-only-en" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" aria-label="search" id="gsc-i-id1" dir="ltr" spellcheck="false" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" title="Clear search box" role="button" style="display: none;"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form></div></div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- end menu -->
+
+			</div>
+
+		</div>
+
+	</div>
+
+</header>
+<nav class="pushy pushy-left" data-focus="#first-link" style="z-index: 99999;">
+	<div class="pushy-content">
+		<div style="height: 68px;background: #e96c3e;">
+			<img alt="fieldking footer logo" style="width: 170px;padding: 20px;margin-top: 2px;" src="https://www.fieldking.com/images/footer-logo.png">
+			<button class="menu-btn" style="border-radius: 10%;width: 46px;height: 40px;margin: 13.5px 13.5px 10px 10px;float: right;background: transparent;color: #fff;font-size: 24px;padding: 0;"><i class="fa fa-times"></i></button>
+		</div>
+		<ul>
+			<li class="pushy-submenu pushy-submenu-closed">
+				<button id="first-link"><i class="fa fa-leaf acci"></i>About</button>
+				<ul>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/about-us/profile/">Profile</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/our-presence/">Presence</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/about-us/infrastructure/">Infrastructure</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/media-room/media-and-news/">Media &amp; News</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/media-room/awards-credentials/">Awards &amp; Credentials</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/media-room/trade-shows/">Trade Shows &amp; Activities</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/about-us/vision-and-mission/">Vision &amp; Mission</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/about-us/management-team/">Management Team</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/about-us/why-us/">Why Us</a>
+					</li>
+				</ul>
+			</li>
+			<li class="pushy-submenu pushy-submenu-closed">
+				<button>
+					<div class="m_icon_pro"><img src="https://www.fieldking.com/icons/product_icon.png"></div>Products
+				</button>
+				<ul class="m_product">
+					<li class="pushy-link tillage_a"><a href="https://www.fieldking.com/product/tillage/">Tillage</a></li>
+					<li class="pushy-link seeding_a"><a href="https://www.fieldking.com/product/seeding-and-plantation/">Seeding</a></li>
+					<li class="pushy-link harvest_a"><a href="https://www.fieldking.com/product/harvest/">Harvest &amp; Straw Management</a></li>
+					<!--<li class="pushy-link post_harvest_a"><a href="https://www.fieldking.com/product/post-harvest/">Post Harvest</a></li>-->
+					<li class="pushy-link landsc_a"><a href="https://www.fieldking.com/product/landscaping/">Landscaping</a></li>
+					<li class="pushy-link haulage_a"><a href="https://www.fieldking.com/product/haulage/">Haulage</a></li>
+					<li class="pushy-link protection_a"><a href="https://www.fieldking.com/product/crop-protection/">Crop Protection</a></li>
+					<li class="pushy-link disc-and-blades_a"><a href="https://www.fieldking.com/product/disc-and-blades/">Harrow Discs &amp; Rotavator Blades</a></li>
+
+				</ul>
+			</li>
+			<li class="pushy-link"><a style="color: #e86c3c;font-weight: bold;" href="https://www.fieldking.com/become-a-dealer/" class=""><i class="fa fa-handshake-o acci" style="transform: rotate(30deg);"></i>Become a Dealer</a></li>
+			<li class="pushy-submenu pushy-submenu-closed">
+				<button><i class="fa fa-phone acci"></i> Contact Us</button>
+				<ul>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/contact-us/">Sales</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/contact-us/join-our-team/">Careers</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/contact-us/supply-to-us/">Supply To Us</a>
+					</li>
+					<li class="pushy-link">
+						<a href="https://www.fieldking.com/contact-us/service-and-spares-request/">Service &amp; Spares Request</a>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+	</div>
+</nav>
+<style>
+	.new_search_inner1 {
+		display: none;
+		float: left;
+		position: absolute;
+		right: 0;
+		bottom: -60px;
+		background: #fff;
+		padding: 5px 10px;
+
+	}
+
+	.new_search1 {
+		position: relative;
+		right: 0;
+		width: 25px;
+		float: right;
+		cursor: pointer;
+		top: 29px;
+		height: 25px;
+		background: url(https://www.fieldking.com/icons/language.png);
+		background-size: cover;
+	}
+
+	.new_search_inner {
+		display: none;
+		width: 270px;
+		float: left;
+		position: absolute;
+		right: 0;
+		bottom: -45px;
+		background: #fff;
+		padding: 3px 7px;
+
+	}
+
+	.new_search {
+		position: relative;
+		right: 0;
+		width: 45px;
+		float: right;
+		cursor: pointer;
+		top: 29px;
+		padding-left: 15px;
+		height: 40px;
+	}
+
+	.new_search:before {
+		font-family: FontAwesome;
+		content: "\f002";
+		position: absolute;
+		font-size: 22px;
+		color: #a0a0a0;
+	}
+
+	.cse .gsc-search-button-v2,
+	.gsc-search-button-v2 {
+		padding: 9px 27px;
+		height: 33px;
+	}
+
+	.gsc-control-cse .gs-spelling,
+	.gsc-control-cse .gs-result .gs-title,
+	.gsc-control-cse .gs-result .gs-title * {
+		font-size: 20px;
+		text-decoration: none;
+	}
+
+	.results {
+		margin-top: 25px;
+	}
+
+	.gsc-webResult.gsc-result {
+		border-bottom: 1px solid #e0e0e0;
+		padding: 20px 0;
+	}
+
+	.gsc-webResult.gsc-result:hover,
+	.gsc-imageResult:hover {
+		border-bottom: 1px solid #e0e0e0;
+	}
+
+	input.gsc-input,
+	.gsc-input-box,
+	.gsc-input-box-hover,
+	.gsc-input-box-focus {
+		border-radius: 30px;
+	}
+
+	.gsc-search-box-tools .gsc-search-box .gsc-input {
+		padding-right: 5px;
+	}
+
+	.n1 {
+		top: 35px;
+		left: 217px !IMPORTANT;
+	}
+
+	.submenu {
+		position: absolute;
+		top: 28px;
+		left: -15px;
+		text-align: center;
+	}
+
+	.submenu p {
+		font-weight: bold;
+	}
+
+	.call_header {
+		border-radius: 530px;
+		padding: 6px 15px;
+		color: #e96b3d;
+		font-size: 18px;
+	}
+
+	.call_header i {
+		font-size: 26px;
+		color: #4fce5d;
+	}
+
+	.call_header b {
+		position: relative;
+		top: -3px;
+		margin-left: 3px;
+	}
+
+	.icon_pro {
+		text-align: center;
+		display: block;
+		margin-bottom: -10px;
+	}
+
+	.icon_pro img {
+		height: 15px;
+		display: inline-block;
+	}
+
+	.nav>li>a {
+		padding: 22px 12px;
+	}
+
+	.goog-te-banner-frame {
+		display: none !IMPORTANT;
+	}
+
+	body {
+		top: 0 !IMPORTANT;
+	}
+
+	@media only screen and (min-width:320px) and (max-width: 767px) {
+		.submenu {
+			display: none;
+		}
+
+		.m_icon_pro img {
+			width: 30px;
+			position: relative;
+			top: 4px;
+			margin-right: 5px;
+		}
+
+		.m_icon_pro {
+			display: inline-block;
+		}
+
+		.new_search1 {
+			position: absolute;
+			right: 78px;
+			top: 24px;
+		}
+	}
+</style>
+<!-- <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'af'}, 'google_translate_element');
+}
+</script> -->
+
+<!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->        <div class="site-overlay"></div>
+        <div class="clearfix"></div>
+
+        <div class="page_title2" style="padding: 10px 0px 28px 0px;">
+            <div class="container">
+
+                <div class="pagenation">
+                    &nbsp;<a href="https://www.fieldking.com/">Home</a><i>/</i><a href="https://www.fieldking.com/Products/">Products</a><i>/</i><a href="https://www.fieldking.com/product/tillage">Tillage</a><i>/</i>
+                    Heavy Duty Rigid Cultivator (B)                </div>
+
+            </div>
+        </div><!-- end page title -->
+
+        <div class="clearfix"></div>
+        <div class="feature_section8" style="padding: 10px 0px 50px 0px;">
+            <div class="container">
+
+                <div id="p-img" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animate fadeInLeft" data-anim-type="fadeInLeft">
+
+                    <div class="product-slider">
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false" style="box-shadow: rgba(0,0,0,0.15) 0 3px 11px 0!important;">
+                            <div class="carousel-inner">
+                                <!--<div class="item active"> <iframe width="100%" src="https://www.youtube.com/embed/ymgdUEXLcuw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>-->
+                                <div class="item active">
+                                    <img src="../../../images/tillage/cultivator-and-tiller/lg/heavy-duty-rigid-type-cultivator-(b-type).png" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                </div>
+                                                                        <div class="item"> <img src="m" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                        </div>
+                                                                        <div class="item"> <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/2.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                        </div>
+                                                                        <div class="item"> <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/3.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                        </div>
+                                                                        <div class="item"> <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/4.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                        </div>
+                                
+                                <!--<div class="item"> <img
+                                        src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/2.jpg">
+                                </div>
+                                <div class="item"> <img
+                                        src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/3.jpg">
+                                </div>
+                                <div class="item"> <img
+                                        src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/4.jpg">
+                                </div>-->
+                            </div>
+                                                            <a class="left carousel-control" href="#carousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                                                    </div>
+                        <div class="clearfix">
+                            <div id="thumbcarousel" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                                                                    <div data-target="#carousel" data-slide-to="0" class="thumb">
+                                                <img src="../../../images/tillage/cultivator-and-tiller/lg/heavy-duty-rigid-type-cultivator-(b-type).png" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                                            </div>
+                                                                                <!--                                                 <div data-target="#carousel" data-slide-to="1" class="thumb">
+                                                    <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/1.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)" />
+                                                </div>
+                                                                                        <div data-target="#carousel" data-slide-to="2" class="thumb">
+                                                    <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/2.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)" />
+                                                </div>
+                                                                                        <div data-target="#carousel" data-slide-to="3" class="thumb">
+                                                    <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/3.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)" />
+                                                </div>
+                                                                                        <div data-target="#carousel" data-slide-to="4" class="thumb">
+                                                    <img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/4.jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)" />
+                                                </div>
+                                         -->
+                                        <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/1.jpg">
+                                        </div>
+                                        <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/2.jpg">
+                                        </div>
+                                        <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/3.jpg">
+                                        </div>
+                                        <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="../../../images/tillage/cultivator-and-tiller/sp/heavy-duty-rigid-type-cultivator-(b-type)/4.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /carousel-inner -->
+                            </div>
+                            <!-- /thumbcarousel -->
+                        </div>
+                    </div>
+                </div>
+
+                <div id="p-text" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animate fadeInRight" data-anim-type="fadeInRight">
+
+                    <h1 class="product-name"><strong>Heavy Duty Rigid Cultivator (B)</strong></h1>
+                    <h2 class="product-category"><b>Cultivator / Tillers</b></h2>
+
+                    <ul class="list1">
+                                                        <li>
+                                    <i class="fa fa-dot-circle-o"></i>&nbsp;It is designed to withstand toughest work conditions of hard black soils.
+                                </li>
+                            
+                                                        <li>
+                                    <i class="fa fa-dot-circle-o"></i>&nbsp;The profile cut tynes get their strength because of a peculiar design in which the stress prone points are shaped to resist any distorting strains.
+                                </li>
+                            
+                                                        <li>
+                                    <i class="fa fa-dot-circle-o"></i>&nbsp;Main frame is made out of heavy duty tubular section.
+                                </li>
+                            
+                                                <span class="hide" id="jd_1"></span><a href="javascript:void(0);" onclick="showDetails('jd_1',this)" style="font-size: 20px;"><i class="fa fa-chevron-circle-down"></i></a>                    </ul>
+                    <br>
+                    <br>
+                    <a href="javascript:void(0);" onclick="sendPopContactBtn()" style="background: #23882b;" id="myBtn" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Become A Dealer</a>
+                    <a href="javascript:void(0);" onclick="showPopContactBtn()" style="background:#e67816;" id="" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Send Enquiry</a>
+
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="feature_section32">
+            <div class="container">
+                <div class="blog_post">
+                    <div class="blog_postcontent">
+                        <h2 style="text-align: center;"><strong>Specification</strong></h2>
+                        <div class="image_frame">
+                            <img src="../../../images/tillage/cultivator-and-tiller/spc/heavy-duty-rigid-type-cultivator-(b-type).jpg" alt="heavy-duty-rigid-type-cultivator-(b-type)">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+                    <div class="clearfix"></div>
+
+            <div class="feature_section29" style="padding: 50px 0px 50px 0px;margin-bottom: 20px;">
+                <div class="container">
+                    <h2 style="text-align: center;"><strong>Other Models</strong></h2>
+                    <div class="your-class" style="text-align: center;">
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/medium-duty-spring-loaded-tiller-(usa-type)">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/medium-duty-spring-loaded-tiller-(usa-type).png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Medium Duty Tiller (USA)</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/extra-heavy-duty-spring-loaded-tiller">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/extra-heavy-duty-spring-loaded-tiller.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Extra Heavy Duty Tiller</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/double-coil-tyne-tiller">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/double-coil-tyne-tiller.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Double Coil Tyne Tiller</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/beri-type-spring-loaded-tiller">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/beri-type-spring-loaded-tiller.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Beri Tiller</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/dabangg-cultivator">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/dabangg-cultivator.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Dabangg Cultivator</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/heavy-duty-type-cultivator">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/heavy-duty-type-cultivator.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Heavy Duty Cultivator</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/medium-duty-spring-loaded-tiller">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/medium-duty-spring-loaded-tiller.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Medium Duty Spring Loaded Tiller</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 otm">
+                                <a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/multi-row-tiller">
+
+                                    <div class="ppcat" style="min-height: 346px;">
+                                        <img src="../../../images/tillage/cultivator-and-tiller/sm/multi-row-tiller.png" alt="Cultivator / Tillers">
+                                        <h5 class="ppcat title">Multi Row Tiller</h5>
+                                    </div>
+
+                                </a>
+                            </div>
+
+                                            </div>
+
+
+                </div>
+            </div>
+
+
+                <div class="clearfix"></div>
+        
+                
+                <!-- NEW -->
+
+                
+
+                
+        			<div class="clearfix"></div>
+			<style>
+				.scrollup {
+					bottom: 73px;
+					right: 27px;
+				}
+
+				.qlinks li a {
+					color: #c1bdbd;
+				}
+
+				#response_msg2 {
+					color: #049a15;
+					margin-top: 10px;
+				}
+
+				@media only screen and (max-width: 767px) and (min-width: 320px) {
+					.mob100 {
+						width: 100%;
+					}
+
+					.moblist {
+						text-align: left;
+						padding-left: 20px !important;
+					}
+				}
+			</style>
+			<div class="one_half animate fadeInLeft" data-anim-type="fadeInLeft">
+				<div class="" style="text-align: center;margin-top: 30px;float: left;width: 100%;    margin-bottom: 10px;">
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="font-size: 18px;">
+						<h5 class="white">Customer Care</h5>
+						<a href="tel:01847156665" style="color:#ffffff;margin-bottom: 15px;"><i style="color: #ffffff;font-size: 20px;background: #3d7bb5;padding: 7px 9.5px;border-radius: 50%;" class="fa fa-phone"></i> +91 184 7156665 / 66</a><br>
+						<a target="_blank" href="https://web.whatsapp.com/send?phone=+919254016570" style="color:#ffffff;"><i style="color: #f7f7f7;font-size: 20px;background: #049a15;padding: 7px 9px;border-radius: 50%;" class="fa fa-whatsapp"></i> +91 9254016570</a>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ds" style="font-size: 20px;text-align: center;margin-top: 15px;">
+						<a href="https://www.fieldking.com/become-a-dealer/"><button class="btn" style="background: #e86b3d;color: #fff;border-radius: 30px;font-size: 18px;padding: 5px 25px;">Become A Dealer</button></a>
+					</div>
+
+				</div>
+			</div> <!--end twitter feeds -->
+			<div class="one_half last animate fadeInRight" data-anim-type="fadeInRight">
+				<div class="newsletter_two">
+
+					<div class="left">
+						<i class="fa fa-envelope"></i>
+						<h5 class="white">Subscribe Newsletter</h5>
+					</div>
+
+					<div class="right">
+						<form action="../subscribeApi/newsletterUser.php" method="post">
+							<input class="enter_email_input" name="samplees" id="samplees" value="Please enter your Email Address" onfocus="if(this.value == 'Please enter your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Please enter your Email Address';}" type="text">
+							<div class="clearfix"></div>
+							<input style="border: 2px solid #e86b3e;color:#e86b3e;background-color:#272727;" name="" value="Subscribe Now!" class="input_submit" type="button" onclick="SubscribeUser()">
+						</form>
+					</div>
+					<div id="response_msg"></div>
+					<div id="response_msg2"></div>
+				</div>
+			</div><!-- end newsletter sign up -->
+			<hr>
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <div class="footer1" style="margin-top: 50px;">
+						
+				<div class="container" style="color:#1f1919;">
+                    
+					
+
+					
+
+					<div class="clearfix divider_dashed1"></div>
+
+					<div class="one_third animate fadeInUp" data-anim-type="fadeInUp">
+						<ul class="faddress">
+							<li><img style="width: auto;" src="https://www.fieldking.com/images/logo.png" alt="Fieldking">
+							</li>
+							<!-- <li><img style="width: auto;" src="https://www.fieldking.com/images/FK-logo-cap-trans.png" alt="Fieldking" />
+				</li> -->
+
+							<!--<li>
+					<a href="tel:+91 184 7156665"><i class="fa fa-phone"></i>&nbsp; +91 184 7156665 / 66</a>
+				</li>
+				<li>
+					<a href="https://web.whatsapp.com/send?phone=+919254016570"><i class="fa fa-whatsapp"></i>&nbsp; +91 9254016570</a>
+				</li>
+				<li><img src="https://www.fieldking.com/images/footer-wmap.png" alt="" />
+				</li>-->
+							<li>
+								<p>Fieldking, a Pioneer in the agricultural machinery manufacturing industry, was formed in 1978, with a mission to be a front runner in offering the innovative, user-friendly &amp; environmentally sustainable farming solutions to farmers around the globe. As a market leader, we export innovative implements of International standards to 102 Countries.</p>
+							</li>
+							<li>
+								<i class="fa fa-map-marker fa-lg"></i>&nbsp; Plot No.235,
+								<br>
+								Sec-3, HSIIDC, Karnal -132001
+								<br>
+								(Haryana), India
+							</li>
+						</ul>
+					</div><!-- end address -->
+                   </div>
+				</div></div>
+				<div class="col-2">
+					<h4 class="lmb">Products</h4>
+					<div class="one_fifth animate mob100 fadeInUp" data-anim-type="fadeInUp">
+						<div class="qlinks" style="color:#1a0b0b;">
+
+							
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+									<ul class="moblist">
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/rotary-tiller/"><i class="fa fa-angle-right"></i> Rotavator</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/combine-harvester/"><i class="fa fa-angle-right"></i> Combine Harvester</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/plough/"><i class="fa fa-angle-right"></i> Ploughs</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/harrow/"><i class="fa fa-angle-right"></i> Harrows</a>
+										</li>
+									</ul>
+								</div>
+							
+								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+									<ul class="moblist">
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/"><i class="fa fa-angle-right"></i> Cultivator</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product/post-harvest/"><i class="fa fa-angle-right"></i> Balers</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/trailer/"><i class="fa fa-angle-right"></i> Trailers</a>
+										</li>
+										<li>
+											<a href="https://www.fieldking.com/product-portfolio/rotary-mulcher/"><i class="fa fa-angle-right"></i> Rotary Mulcher</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div><!-- end links -->
+				
+			</div>
+                  <div class="col-2">
+					<div class="one_fifth animate mob100 fadeInUp" data-anim-type="fadeInUp">
+						<div class="siteinfo">
+
+							<h4 class="lmb">Stay Connected</h4>
+
+							<p>
+								To know about the latest farm machinery updates, videos, exhibitions and news, please follow us on
+							</p>
+							<br>
+							<ul class="footer_social_links" style="float: left;">
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #3B5998;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://www.facebook.com/FieldkingFarmEquipment/	"><i style="color: #fff;margin: 0px;" class="fa fa-facebook"></i></a>
+								</li>
+
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #007BB6;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://www.linkedin.com/company/bupl-fieldking/"><i style="color: #fff;margin: 0px;" class="fa fa-linkedin"></i></a>
+								</li>
+
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #CD201F;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://www.youtube.com/c/FIELDKINGWorldClassFarmEquipment/"><i style="color: #fff;margin: 0px;" class="fa fa-youtube"></i></a>
+								</li>
+							</ul>
+							<ul class="footer_social_links" style="float: left;margin-top: 10px;">
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #007BB6;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://twitter.com/beriudyogkarnal/"><i style="color: #fff;margin: 0px;" class="fa fa-twitter"></i></a>
+								</li>
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #ca37ac;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://www.instagram.com/fieldkingfarmequipment/"><i style="color: #fff;margin: 0px;" class="fa fa-instagram"></i></a>
+								</li>
+								<li class="animate zoomIn" data-anim-type="zoomIn" style="padding: 6px;width: 44px;height: 44px;border-radius: 24px;background-color: #e62f2d;">
+									<a target="_blank" style="font-size: 23px;vertical-align: middle;" href="https://in.pinterest.com/field_king/"><i style="color: #fff;margin: 0px;" class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+
+						</div>
+					</div><!-- end site info -->
+                   </div>
+				   <div class="col-2">
+					<div class="one_fourth last animate fadeInUp" data-anim-type="fadeInUp">
+
+						<h4>New Farm implements</h4>
+
+						<div id="flickr_badge_wrapper">
+							<a href="https://www.fieldking.com/product-portfolio/combine-harvester/"><img src="https://www.fieldking.com/images/footer-Combine Harvester-1.jpg" alt="Combine Harvester"></a>
+							<a href="https://www.fieldking.com/product-portfolio/harrow/dabangg-harrow/"><img src="https://www.fieldking.com/images/footer-Dabangg Harrow-1.jpg" alt="Dabangg Harrow"></a>
+							<a href="https://www.fieldking.com/product-portfolio/post-hole-digger/"><img src="https://www.fieldking.com/images/footer-Post Hole Digger-1.jpg" alt="Post Hole Digger"></a>
+							<a href="https://www.fieldking.com/product-portfolio/rotary-tiller/regular-speed/"><img src="https://www.fieldking.com/images/footer-Regular Single Speed-1.jpg" alt="Regular Single Speed"></a>
+							<a href="https://www.fieldking.com/product-portfolio/cultivator-and-tiller/heavy-duty-rigid-type-cultivator-(b-type)/"><img src="https://www.fieldking.com/images/footer-Rigid Cultivator-1.jpg" alt="Rigid Cultivator"></a>
+							<a href="https://www.fieldking.com/product-portfolio/rotary-tiller/robust-multi-speed/"><img src="https://www.fieldking.com/images/footer-Robust Multi Speed-1.jpg" alt="Robust Multi Speed"></a>
+							<a href="https://www.fieldking.com/product-portfolio/rotary-tiller/mini-rotary-tiller/"><img src="https://www.fieldking.com/images/footer-Rotary Cutter-1.jpg" alt="Rotary Cutter"></a>
+							<a href="https://www.fieldking.com/product-portfolio/bale-spear/bale-spear/"><img src="https://www.fieldking.com/images/footer-Square Baler-1.jpg" alt="Square Baler"></a>
+							<a href="https://www.fieldking.com/product-portfolio/trailer/3-way-tipping-trailer/"><img src="https://www.fieldking.com/images/footer-Tipping Trailer-1.jpg" alt="Tipping Trailer"></a>
+						</div>
+
+					</div><!-- end flickr -->
+
+				</div>
+			<!-- end footer -->
+			<div class="clearfix"></div>
+
+			<div class="copyright_info">
+				<div class="container">
+
+					<div class="clearfix divider_dashed10"></div>
+
+					<div class="one_half animate fadeInRight" data-anim-type="fadeInRight" style="font-size:14px;color:#fff;">
+
+						Copyright © 2020 Beri Udyog Pvt Ltd. All rights reserved.
+
+					</div>
+
+
+				</div>
+
+</div>
+</div>
+
+			</div><!-- end copyright info -->
+			<a href="#" class="scrollup" style="display: inline;">Scroll</a><!-- end scroll to top of the page-->
+
+			<script type="text/javascript">
+				function gotop(url) {
+					window.location.href = url;
+				}
+
+				function SubscribeUser() {
+					var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+					if (re.test($('#samplees').val())) {
+						$.ajax({
+							method: 'POST',
+							url: '/subscribeApi/subscriber.php',
+							//data:{'email':$('#samplees').val()},
+							success: function(response) {
+								$("#response_msg").append("You have been subscribed successfully!");
+								$('[name="samplees"]').val('');
+								//toastr.success('You have been subscribed successfully!');
+							}
+						})
+					} else {
+						alert("Invalid Email")
+						// $("#response_msg2").append("Please enter a valid email address.");
+					}
+				}
+			</script>
+			<script type="text/javascript">
+				(function() {
+					var options = {
+						whatsapp: "+919254016570",
+						position: "right",
+					};
+					var proto = document.location.protocol,
+						host = "whatshelp.io",
+						url = proto + "//static." + host;
+					var s = document.createElement('script');
+					s.type = 'text/javascript';
+					s.async = true;
+					s.src = url + '/widget-send-button/js/init.js';
+					s.onload = function() {
+						WhWidgetSendButton.init(host, proto, options);
+					};
+					var x = document.getElementsByTagName('script')[0];
+					x.parentNode.insertBefore(s, x);
+				})();
+			</script>
+			<style type="text/css">
+				.mobile_call_btn {
+					position: fixed;
+					bottom: 15.5px;
+					left: 9px;
+					z-index: 9999;
+					padding: 4px;
+					border-color: #233da2;
+					background-color: #233da2;
+					color: #fff;
+					font-weight: bold;
+					margin-left: 0px;
+					border-radius: 50%;
+					width: 57px;
+					height: 57px;
+
+				}
+
+				.ds a {
+					display: block;
+				}
+
+				.ds i {
+					color: #fff;
+					margin-right: 5px;
+				}
+
+				.divider_dashed1 {
+					margin: 20px 0 45px;
+				}
+
+				/*.mobile_call_btn{
+		background: #ef6a42;
+		border-radius: 100px;
+		position: fixed;
+		bottom:16px;
+		left:16px;
+		z-index:9999;
+	}*/
+				.mobile_call_btn i {
+					padding: 10px 14px 8px 14px;
+					font-size: 30px;
+					color: #fff;
+				}
+
+				.feature_section29 {
+					background: #e6e6e6;
+				}
+
+				iframe#wh-widget-send-button-iframe {
+					display: none;
+				}
+
+				.ds {
+					text-align: left;
+				}
+
+				@media (max-width: 767px) {
+					iframe#wh-widget-send-button-iframe {
+						display: block;
+					}
+
+					.ds {
+						text-align: center;
+					}
+				}
+			</style>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script>
+				$(document).ready(function() {
+					$(".new_search").click(function() {
+						$(".new_search_inner").toggle();
+					});
+				});
+				$(document).ready(function() {
+					$(".new_search1").click(function() {
+						$(".new_search_inner1").toggle();
+					});
+				});
+			</script>    </div>
+
+</body>
+</html>

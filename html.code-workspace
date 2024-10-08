@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../html"
+		},
+		{
+			"path": "../../css"
+		},
+		{
+			"path": "../../bootstrap"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "project1"
+	}
+}
