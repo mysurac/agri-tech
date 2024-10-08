@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Image Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+            padding-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 100px;
+            height: auto;
+            scroll-snap-align: start;
+            cursor: pointer;
+        }
+
+        .main-image {
+            width: 500px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding: 30px;">
+    
+    
+
+    <script>
+        // JavaScript to handle image switching
+        const gallery = document.querySelector('.gallery');
+        const mainImage = document.getElementById('mainImage');
+
+        gallery.addEventListener('click', (event) => {
+            if (event.target.tagName === 'IMG') {
+                mainImage.src = event.target.src;
+            }
+        });
+    </script>
+</div>
+ 
+
+
+
+
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="width:300px;">
+       <!-- <div id="p-text" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 animate fadeInRight" data-anim-type="fadeInRight">
+       -->
+            <h1 class="product-name">Zero Till</h1>
+            <h2 class="product-category">Zero Till</h2>
+
+            <ul class="list1">
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;The zero till consists of a seed box, fertilizer box, seed and fertilizer metering mechanisms, seed tubes, furrow openers, seed and fertilizer rate adjusting lever and transport cum power transmitting wheels.
+                        </li>
+                    
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;The length of the grooves exposed to the seed, can be increased or decreased and hence the amount of seed sown can be varied.
+                        </li>
+                    
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;Made from heavy structure and gauge sheets.
+                        </li>
+                    
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;Adjustable flow of fertilizer through knob.
+                        </li>
+                    
+                                                <li>
+                            <i class="fa fa-dot-circle-o"></i>&nbsp;Used for sowing seeds of all kind of crops.
+                        </li>
+                    
+                                        <span class="hide" id="jd_1"></span><a href="javascript:void(0);" onclick="showDetails('jd_1',this)" style="font-size: 20px;"><i class="fa fa-chevron-circle-down"></i></a>                    </ul>
+            <br>
+            <br>
+            <a href="javascript:void(0);" onclick="sendPopContactBtn()" style="background: #23882b;" id="myBtn" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Become A Dealer</a>
+            <a href="javascript:void(0);" onclick="showPopContactBtn()" style="background:#e67816;" id="" class="readmore_but2"><i class="fa fa-rocket"></i>&nbsp;&nbsp;Send Enquiry</a>
+
+                                    <a class="popup-youtube readmore_but2" target="_blank" href="https://www.youtube.com/watch?v=0M1QPNZO7Ac" style="color: #fff;"><i class="fa fa-play-circle-o"></i>&nbsp;&nbsp;Watch Video</a>
+
+            
+        </div>
+        <img class="main-image" style="width: 300px;" id="mainImage" src="zero-till.png" alt="Main Image">
+    <div class="gallery">
+        <img src="1.jpg" alt="Small Image 1">
+        <img src="2.jpg" alt="Small Image 2">
+        <img src="3.jpg" alt="Small Image 1">
+        <img src="4.jpg" alt="Small Image 2">
+        <!-- Add more small images as needed -->
+    </div>
+
+
+
+    </div>
+
+    </div>
+    </div>
+    <div class="container">
+         
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding: 30px;">
+                <img class="bimg" src="become.jpg" alt="Dealership Benefits">
+            </div>
+              
+            
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="padding: 30px;">
+                <h2>Why MTP?</h2>
+                <H3>Dealership Benefits</H3>
+                <P>Company`s diverse range of products include 35+ category of Farm Equipment's for every farmer's Need.
+                    Dedicated account management by our superior sales and back end team for Managing Orders.
+                    Excellent Onsite Customer Service support.
+                    Comprehensive Marketing Support and Marketing collateral's in regional language's.
+                    Stock offers/annual offers or year-end closing offers to Motivate channel partners.
+                    Competent Operations team to fulfill bulk orders with precision in Peak season.
+                    Warranty Support
+                    Training Programs and Demo Session's for Dealers/Distributors for New Products.
+                    Sponsorship Program for Plant Visits & Domestic & International Exhibitions.</P>
+            </div>
+            
+
+
+            </div>
+           
+                </div>
+
+</body>
+</html>

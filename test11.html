@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Image Gallery with Paragraph</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .gallery-container {
+            flex: 1;
+            overflow-x: auto;
+            white-space: nowrap;
+            margin-right: 20px;
+        }
+
+        .gallery {
+            display: inline-flex;
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .description {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="1.jpg" alt="Small Image 1">
+                <img src="2.jpg" alt="Small Image 2">
+                <!-- Add more small images as needed -->
+            </div>
+        </div>
+
+        <div class="description">
+            <p>This is the description paragraph.</p>
+            <p>You can add more paragraphs or content here.</p>
+        </div>
+    </div>
+</body>
+</html>
